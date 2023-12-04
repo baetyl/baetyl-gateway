@@ -1,0 +1,16 @@
+modbus-simulator:
+  - name: switch
+    type: bool
+    mode: rw
+  - name: temperature
+    type: float32
+    mode: ro
+  - name: humidity
+    type: float32
+    mode: ro
+  - name: high-temperature-threshold
+    type: int32
+    mode: rw
+  - name: high-temperature-alarm
+    type: bool
+    mode: ro

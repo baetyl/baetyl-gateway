@@ -1,0 +1,38 @@
+devices:
+  - name: modbus-0331
+    version: 1680263365qc3fdv
+    deviceModel: modbus-simulator
+    accessTemplate: modbus-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/modbus-simulator/modbus-0331/property/invoke
+      report:
+        qos: 0
+        topic: thing/modbus-simulator/modbus-0331/property/post
+      event:
+        qos: 0
+        topic: thing/modbus-simulator/modbus-0331/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/modbus-0331/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/modbus-0331/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/modbus-simulator/modbus-0331/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/modbus-simulator/modbus-0331/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/modbus-simulator/modbus-0331/lifecycle/post
+    accessConfig:
+      modbus:
+        id: 1
+        interval: 5s
+        tcp:
+          address: 127.0.0.1
+          port: 5020
+driver: ""

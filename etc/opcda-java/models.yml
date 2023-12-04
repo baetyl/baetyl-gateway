@@ -1,0 +1,4 @@
+opcda-java-test:
+  - name: "123"
+    type: int16
+    mode: rw

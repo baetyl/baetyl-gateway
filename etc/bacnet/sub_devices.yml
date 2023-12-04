@@ -1,0 +1,2452 @@
+devices:
+  - name: gateway-bacnet-59
+    version: 1688694974tq3pgh
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-59/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-59/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-59/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-59/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-59/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-59/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-59/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-59/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-60
+    version: 1688694974i4i48w
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-60/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-60/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-60/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-60/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-60/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-60/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-60/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-60/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-61
+    version: 1688694974uwn5ws
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-61/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-61/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-61/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-61/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-61/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-61/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-61/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-61/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-62
+    version: 1688694974rybjfm
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-62/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-62/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-62/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-62/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-62/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-62/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-62/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-62/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-63
+    version: 1688694974is3tgq
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-63/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-63/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-63/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-63/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-63/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-63/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-63/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-63/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-64
+    version: 1688694974mccwaw
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-64/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-64/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-64/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-64/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-64/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-64/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-64/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-64/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-65
+    version: 1688694974yr3idu
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-65/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-65/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-65/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-65/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-65/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-65/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-65/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-65/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-66
+    version: 1688694974xp5qkt
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-66/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-66/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-66/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-66/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-66/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-66/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-66/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-66/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-67
+    version: 1688694974gxdkaz
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-67/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-67/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-67/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-67/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-67/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-67/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-67/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-67/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-68
+    version: 1688694974n6rnuu
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-68/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-68/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-68/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-68/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-68/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-68/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-68/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-68/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-69
+    version: 1688694974wnplk3
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-69/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-69/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-69/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-69/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-69/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-69/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-69/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-69/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-70
+    version: 16886949747rfdj5
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-70/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-70/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-70/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-70/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-70/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-70/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-70/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-70/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-22
+    version: 1688694973rdswig
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-22/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-22/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-22/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-22/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-22/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-22/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-22/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-22/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-23
+    version: 1688694973pfulqj
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-23/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-23/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-23/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-23/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-23/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-23/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-23/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-23/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-24
+    version: 1688694973ppsdab
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-24/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-24/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-24/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-24/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-24/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-24/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-24/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-24/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-25
+    version: 1688694973awre8f
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-25/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-25/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-25/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-25/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-25/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-25/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-25/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-25/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-26
+    version: 1688694973hjirpp
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-26/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-26/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-26/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-26/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-26/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-26/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-26/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-26/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-27
+    version: 1688694973p6qdhn
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-27/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-27/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-27/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-27/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-27/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-27/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-27/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-27/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-28
+    version: 1688694973urjy8f
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-28/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-28/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-28/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-28/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-28/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-28/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-28/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-28/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-29
+    version: 1688694973urjn59
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-29/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-29/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-29/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-29/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-29/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-29/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-29/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-29/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-30
+    version: 1688694973cf77aa
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-30/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-30/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-30/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-30/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-30/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-30/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-30/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-30/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-31
+    version: 1688694973yymeax
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-31/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-31/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-31/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-31/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-31/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-31/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-31/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-31/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-32
+    version: 1688694973pmvfih
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-32/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-32/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-32/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-32/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-32/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-32/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-32/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-32/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-33
+    version: 1688694973scahhi
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-33/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-33/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-33/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-33/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-33/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-33/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-33/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-33/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-34
+    version: 16886949733kcwzm
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-34/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-34/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-34/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-34/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-34/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-34/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-34/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-34/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-35
+    version: 1688694973spedev
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-35/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-35/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-35/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-35/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-35/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-35/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-35/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-35/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-36
+    version: 1688694973ipducg
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-36/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-36/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-36/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-36/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-36/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-36/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-36/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-36/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-37
+    version: 1688694973dggeej
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-37/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-37/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-37/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-37/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-37/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-37/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-37/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-37/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-38
+    version: 1688694973m3trie
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-38/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-38/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-38/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-38/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-38/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-38/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-38/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-38/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-39
+    version: 1688694973ncpd2e
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-39/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-39/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-39/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-39/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-39/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-39/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-39/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-39/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-40
+    version: 1688694973bifuqr
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-40/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-40/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-40/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-40/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-40/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-40/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-40/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-40/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-41
+    version: 1688694974hnjsvb
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-41/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-41/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-41/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-41/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-41/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-41/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-41/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-41/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-42
+    version: 1688694974hce7kc
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-42/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-42/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-42/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-42/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-42/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-42/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-42/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-42/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-43
+    version: 1688694974tjnuhr
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-43/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-43/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-43/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-43/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-43/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-43/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-43/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-43/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-44
+    version: 1688694974ybsvj5
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-44/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-44/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-44/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-44/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-44/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-44/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-44/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-44/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-45
+    version: 1688694974w87xzi
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-45/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-45/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-45/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-45/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-45/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-45/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-45/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-45/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-46
+    version: 1688694974r7qyvj
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-46/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-46/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-46/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-46/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-46/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-46/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-46/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-46/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-47
+    version: 16886949745rcdgy
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-47/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-47/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-47/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-47/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-47/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-47/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-47/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-47/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-48
+    version: 1688694974n2rgfz
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-48/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-48/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-48/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-48/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-48/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-48/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-48/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-48/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-49
+    version: 1688694974dsrfnc
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-49/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-49/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-49/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-49/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-49/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-49/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-49/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-49/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-50
+    version: 1688694974jfjzit
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-50/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-50/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-50/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-50/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-50/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-50/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-50/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-50/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-51
+    version: 1688694974geb762
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-51/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-51/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-51/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-51/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-51/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-51/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-51/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-51/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-52
+    version: 1688694974tdpwcx
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-52/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-52/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-52/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-52/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-52/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-52/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-52/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-52/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-53
+    version: 1688694974xpajvs
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-53/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-53/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-53/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-53/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-53/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-53/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-53/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-53/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-54
+    version: 1688694974qckjec
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-54/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-54/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-54/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-54/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-54/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-54/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-54/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-54/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-55
+    version: 1688694974nmtzzt
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-55/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-55/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-55/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-55/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-55/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-55/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-55/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-55/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-56
+    version: 1688694974d6zip5
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-56/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-56/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-56/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-56/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-56/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-56/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-56/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-56/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-57
+    version: 1688694974qxb6zd
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-57/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-57/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-57/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-57/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-57/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-57/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-57/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-57/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-58
+    version: 1688694974hyufx9
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-58/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-58/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-58/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-58/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-58/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-58/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-58/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-58/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-1
+    version: 1688694973lb2yr3
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-1/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-1/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-1/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-1/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-1/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-1/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-1/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-1/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-2
+    version: 1688694973iy7xep
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-2/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-2/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-2/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-2/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-2/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-2/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-2/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-2/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-3
+    version: 1688694973cmajd9
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-3/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-3/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-3/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-3/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-3/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-3/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-3/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-3/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-4
+    version: 1688694973n2jqt2
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-4/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-4/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-4/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-4/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-4/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-4/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-4/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-4/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-5
+    version: 1688694973duhuuz
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-5/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-5/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-5/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-5/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-5/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-5/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-5/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-5/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-6
+    version: 1688694973maruqs
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-6/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-6/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-6/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-6/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-6/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-6/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-6/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-6/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-7
+    version: 1688694973vrmwye
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-7/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-7/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-7/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-7/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-7/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-7/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-7/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-7/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-8
+    version: 1688694973yagll9
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-8/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-8/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-8/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-8/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-8/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-8/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-8/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-8/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-9
+    version: 1688694973kveffe
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-9/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-9/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-9/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-9/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-9/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-9/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-9/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-9/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-10
+    version: 1688694973yzekrb
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-10/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-10/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-10/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-10/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-10/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-10/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-10/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-10/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-11
+    version: 16886949736lzcjc
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-11/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-11/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-11/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-11/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-11/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-11/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-11/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-11/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-12
+    version: 1688694973qapsth
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-12/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-12/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-12/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-12/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-12/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-12/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-12/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-12/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-13
+    version: 1688694973ed4gnz
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-13/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-13/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-13/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-13/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-13/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-13/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-13/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-13/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-14
+    version: 1688694973vvvdfz
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-14/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-14/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-14/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-14/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-14/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-14/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-14/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-14/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-15
+    version: 1688694973ikbkvj
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-15/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-15/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-15/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-15/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-15/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-15/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-15/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-15/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-16
+    version: 1688694973jbq3zc
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-16/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-16/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-16/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-16/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-16/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-16/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-16/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-16/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-17
+    version: 1688694973du2l3z
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-17/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-17/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-17/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-17/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-17/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-17/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-17/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-17/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-18
+    version: 1688694973sptbun
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-18/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-18/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-18/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-18/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-18/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-18/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-18/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-18/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-19
+    version: 1688694973h9tbtl
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-19/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-19/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-19/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-19/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-19/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-19/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-19/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-19/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-20
+    version: 1688694973fyf3bl
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-20/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-20/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-20/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-20/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-20/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-20/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-20/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-20/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 5s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+  - name: gateway-bacnet-21
+    version: 1688694973e9ybkj
+    deviceModel: bacnet-model
+    accessTemplate: bacnet-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-21/property/invoke
+      report:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-21/property/post
+      event:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-21/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-21/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/gateway-bacnet-21/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-21/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/bacnet-model/gateway-bacnet-21/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/bacnet-model/gateway-bacnet-21/lifecycle/post
+    accessConfig:
+      bacnet:
+        interval: 30s
+        deviceId: 4063323
+        address: 172.30.197.153
+        port: 47808
+driver: ""

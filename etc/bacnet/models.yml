@@ -1,0 +1,10 @@
+bacnet-model:
+  - name: temperature-indoor
+    type: float32
+    mode: ro
+  - name: setpoint-1
+    type: float32
+    mode: rw
+  - name: state-heater
+    type: bool
+    mode: ro

@@ -1,0 +1,13 @@
+iec1014:
+  - name: voltage-ai
+    type: float32
+    mode: ro
+  - name: voltage-ao
+    type: float32
+    mode: rw
+  - name: voltage-di
+    type: bool
+    mode: ro
+  - name: voltage-do
+    type: bool
+    mode: rw

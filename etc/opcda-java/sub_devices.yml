@@ -1,0 +1,39 @@
+devices:
+  - name: opcda-java-device
+    version: 17011636996ncu7z
+    deviceModel: opcda-java-test
+    accessTemplate: opcda-java-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/opcda-java-test/opcda-java-device/property/invoke
+      report:
+        qos: 0
+        topic: thing/opcda-java-test/opcda-java-device/property/post
+      event:
+        qos: 0
+        topic: thing/opcda-java-test/opcda-java-device/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/opcda-java-device/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/opcda-java-device/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/opcda-java-test/opcda-java-device/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/opcda-java-test/opcda-java-device/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/opcda-java-test/opcda-java-device/lifecycle/post
+    accessConfig:
+      opcda:
+        host: 172.30.197.153
+        clsid: f8582cf2-88fb-11d0-b850-00c0f0104305
+        username: Administrator
+        password: baetyl
+        interval: 1000
+      custom: "{}"
+driver: ""

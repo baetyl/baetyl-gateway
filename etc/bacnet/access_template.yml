@@ -1,0 +1,54 @@
+bacnet-access-template:
+  properties:
+    - name: temperature-indoor
+      id: "1"
+      type: float32
+      visitor:
+        bacnet:
+          type: float32
+          bacnetType: 0
+          bacnetAddress: 0
+          applicationTagNumber: 0
+      current: null
+      expect: null
+    - name: setpoint-1
+      id: "2"
+      type: float32
+      visitor:
+        bacnet:
+          type: float32
+          bacnetType: 2
+          bacnetAddress: 2
+          applicationTagNumber: 4
+      current: null
+      expect: null
+    - name: state-heater
+      id: "3"
+      type: bool
+      visitor:
+        bacnet:
+          type: bool
+          bacnetType: 5
+          bacnetAddress: 1
+          applicationTagNumber: 0
+      current: null
+      expect: null
+  mappings:
+    - attribute: temperature-indoor
+      type: value
+      expression: x1
+      precision: 2
+      deviation: 0
+      silentWin: 0
+    - attribute: setpoint-1
+      type: value
+      expression: x2
+      precision: 2
+      deviation: 0
+      silentWin: 0
+    - attribute: state-heater
+      type: value
+      expression: x3
+      precision: 2
+      deviation: 0
+      silentWin: 0

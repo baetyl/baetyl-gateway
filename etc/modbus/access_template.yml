@@ -1,0 +1,103 @@
+modbus-access-template:
+  properties:
+    - name: 开关
+      id: "1"
+      type: bool
+      visitor:
+        modbus:
+          function: 1
+          address: "0x1"
+          quantity: 1
+          type: bool
+          scale: 0
+          swapByte: false
+          swapRegister: false
+      current: null
+      expect: null
+    - name: 温度
+      id: "2"
+      type: float32
+      visitor:
+        modbus:
+          function: 3
+          address: "0x0"
+          quantity: 2
+          type: float32
+          scale: 0
+          swapByte: false
+          swapRegister: false
+      current: null
+      expect: null
+    - name: 湿度
+      id: "3"
+      type: float32
+      visitor:
+        modbus:
+          function: 3
+          address: "0x2"
+          quantity: 2
+          type: float32
+          scale: 0
+          swapByte: false
+          swapRegister: false
+      current: null
+      expect: null
+    - name: 高温阈值
+      id: "4"
+      type: int32
+      visitor:
+        modbus:
+          function: 3
+          address: "0x4"
+          quantity: 2
+          type: int32
+          scale: 0
+          swapByte: false
+          swapRegister: false
+      current: null
+      expect: null
+    - name: 高温报警
+      id: "5"
+      type: bool
+      visitor:
+        modbus:
+          function: 1
+          address: "0x0"
+          quantity: 1
+          type: bool
+          scale: 0
+          swapByte: false
+          swapRegister: false
+      current: null
+      expect: null
+  mappings:
+    - attribute: switch
+      type: value
+      expression: x1
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: temperature
+      type: value
+      expression: x2
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: humidity
+      type: value
+      expression: x3
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: high-temperature-threshold
+      type: value
+      expression: x4
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: high-temperature-alarm
+      type: value
+      expression: x5
+      precision: 0
+      deviation: 0
+      silentWin: 0
