@@ -1,0 +1,37 @@
+devices:
+  - name: shan-windows-opcda
+    version: 16873298875klx5i
+    deviceModel: opcda-matrikon
+    accessTemplate: opcda-0210
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/opcda-matrikon/shan-windows-opcda/property/invoke
+      report:
+        qos: 0
+        topic: thing/opcda-matrikon/shan-windows-opcda/property/post
+      event:
+        qos: 0
+        topic: thing/opcda-matrikon/shan-windows-opcda/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/shan-windows-opcda/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/shan-windows-opcda/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/opcda-matrikon/shan-windows-opcda/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/opcda-matrikon/shan-windows-opcda/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/opcda-matrikon/shan-windows-opcda/lifecycle/post
+    accessConfig:
+      opcda:
+        server: "Matrikon.OPC.Simulation.1"
+        host: 127.0.0.1
+        group: group1
+        interval: 5s
+driver: ""

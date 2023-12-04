@@ -1,0 +1,25 @@
+opcua-simulator:
+  - name: boolean
+    type: bool
+    mode: ro
+  - name: int16
+    type: int16
+    mode: ro
+  - name: int32
+    type: int32
+    mode: ro
+  - name: int64
+    type: int64
+    mode: ro
+  - name: float32
+    type: float32
+    mode: ro
+  - name: float64
+    type: float64
+    mode: ro
+  - name: string1
+    type: string
+    mode: ro
+  - name: answer
+    type: int32
+    mode: rw

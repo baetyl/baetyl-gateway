@@ -1,0 +1,18 @@
+opcda-java-template:
+  properties:
+    - name: "123"
+      id: "1"
+      type: int16
+      visitor:
+        opcda:
+          datapath: 123.test
+          type: int16
+      current: null
+      expect: null
+  mappings:
+    - attribute: "123"
+      type: value
+      expression: x1
+      precision: 0
+      deviation: 0
+      silentWin: 0

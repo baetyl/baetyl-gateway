@@ -1,0 +1,33 @@
+opcda-0210:
+  properties:
+    - name: 风机状态
+      id: "1"
+      type: bool
+      visitor:
+        opcda:
+          datapath: wind
+          type: bool
+      current: null
+      expect: null
+    - name: 风机转速
+      id: "2"
+      type: int16
+      visitor:
+        opcda:
+          datapath: speed
+          type: int16
+      current: null
+      expect: null
+  mappings:
+    - attribute: wind
+      type: value
+      expression: x2
+      precision: 2
+      deviation: 0
+      silentWin: 0
+    - attribute: speed
+      type: value
+      expression: x2
+      precision: 2
+      deviation: 0
+      silentWin: 0

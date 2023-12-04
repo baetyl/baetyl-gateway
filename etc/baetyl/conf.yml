@@ -1,0 +1,30 @@
+plugin:
+  drivers:
+    - name: modbus
+      binPath: "etc/modbus"
+      configPath: "etc/modbus"
+    - name: opcua
+      binPath: "etc/opcua"
+      configPath: "etc/opcua"
+    - name: iec104
+      binPath: "etc/iec104"
+      configPath: "etc/iec104"
+    - name: bacnet
+      binPath: "etc/bacnet"
+      configPath: "etc/bacnet"
+    - name: opcda
+      binPath: "etc/opcda"
+      configPath: "etc/opcda"
+    - name: custom
+      binPath: "etc/custom"
+      configPath: "etc/custom"
+    - name: opcda-java
+      binPath: "etc/opcda-java"
+      configPath: "etc/opcda-java"
+server:
+  port: ":9889"
+mqttConfig:
+  address: mqtt://127.0.0.1:8963
+  cleansession: true
+  username: test
+  password: hahaha

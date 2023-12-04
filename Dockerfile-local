@@ -1,0 +1,3 @@
+FROM alpine
+COPY baetyl-gateway /
+ENTRYPOINT ["./baetyl-gateway"]

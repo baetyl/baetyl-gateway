@@ -1,0 +1,67 @@
+iec-template1014:
+  properties:
+    - name: voltage-ai
+      id: "1"
+      type: float32
+      visitor:
+        iec104:
+          pointNum: 1
+          pointType: AI
+          type: float32
+      current: null
+      expect: null
+    - name: voltage-ao
+      id: "2"
+      type: float32
+      visitor:
+        iec104:
+          pointNum: 0
+          pointType: AO
+          type: float32
+      current: null
+      expect: null
+    - name: voltage-di
+      id: "3"
+      type: bool
+      visitor:
+        iec104:
+          pointNum: 0
+          pointType: DI
+          type: bool
+      current: null
+      expect: null
+    - name: voltage-do
+      id: "4"
+      type: bool
+      visitor:
+        iec104:
+          pointNum: 0
+          pointType: DO
+          type: bool
+      current: null
+      expect: null
+  mappings:
+    - attribute: voltage-ai
+      type: value
+      expression: x1
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: voltage-ao
+      type: value
+      expression: x2
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: voltage-di
+      type: value
+      expression: x3
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: voltage-do
+      type: value
+      expression: x4
+      precision: 0
+      deviation: 0
+      silentWin: 0

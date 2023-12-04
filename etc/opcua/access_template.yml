@@ -1,0 +1,139 @@
+opcua-access-template:
+  properties:
+    - name: property1
+      id: "1"
+      type: int32
+      visitor:
+        opcua:
+          type: int32
+          nsBase: 1
+          idBase: the.answer
+          idType: s
+      current: null
+      expect: null
+    - name: property2
+      id: "2"
+      type: bool
+      visitor:
+        opcua:
+          type: bool
+          nsBase: 1
+          idBase: "43001"
+          idType: i
+      current: null
+      expect: null
+    - name: property3
+      id: "3"
+      type: int16
+      visitor:
+        opcua:
+          type: int16
+          nsBase: 1
+          idBase: "43101"
+          idType: i
+      current: null
+      expect: null
+    - name: property4
+      id: "4"
+      type: int32
+      visitor:
+        opcua:
+          type: int32
+          nsBase: 1
+          idBase: "43301"
+          idType: i
+      current: null
+      expect: null
+    - name: property5
+      id: "5"
+      type: int64
+      visitor:
+        opcua:
+          type: int64
+          nsBase: 1
+          idBase: "43501"
+          idType: i
+      current: null
+      expect: null
+    - name: property6
+      id: "6"
+      type: float32
+      visitor:
+        opcua:
+          type: float32
+          nsBase: 1
+          idBase: "43701"
+          idType: i
+      current: null
+      expect: null
+    - name: property7
+      id: "7"
+      type: float64
+      visitor:
+        opcua:
+          type: float64
+          nsBase: 1
+          idBase: "43801"
+          idType: i
+      current: null
+      expect: null
+    - name: property8
+      id: "8"
+      type: string
+      visitor:
+        opcua:
+          type: string
+          nsBase: 1
+          idBase: "43901"
+          idType: i
+      current: null
+      expect: null
+  mappings:
+    - attribute: answer
+      type: value
+      expression: x1
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: boolean
+      type: value
+      expression: x2
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: int16
+      type: value
+      expression: x3
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: int32
+      type: value
+      expression: x4
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: int64
+      type: value
+      expression: x5
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: float32
+      type: value
+      expression: x6
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: float64
+      type: value
+      expression: x7
+      precision: 0
+      deviation: 0
+      silentWin: 0
+    - attribute: string1
+      type: value
+      expression: x8
+      precision: 0
+      deviation: 0
+      silentWin: 0

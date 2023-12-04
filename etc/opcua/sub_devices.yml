@@ -1,0 +1,40 @@
+devices:
+  - name: opcua-230526
+    version: 1685071654r3acbf
+    deviceModel: opcua-simulator
+    accessTemplate: opcua-access-template
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/opcua-simulator/opcua-230526/property/invoke
+      report:
+        qos: 0
+        topic: thing/opcua-simulator/opcua-230526/property/post
+      event:
+        qos: 0
+        topic: thing/opcua-simulator/opcua-230526/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/opcua-230526/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/opcua-230526/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/opcua-simulator/opcua-230526/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/opcua-simulator/opcua-230526/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/opcua-simulator/opcua-230526/lifecycle/post
+    accessConfig:
+      opcua:
+        endpoint: opc.tcp://172.18.4.177:4840
+        interval: 5s
+        timeout: 10s
+        security:
+          policy: None
+          mode: None
+        auth: { }
+driver: ""

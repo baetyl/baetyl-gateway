@@ -1,0 +1,10 @@
+opcda-matrikon:
+  - name: wind
+    type: bool
+    mode: rw
+  - name: speed
+    type: int16
+    mode: rw
+  - name: xx
+    type: string
+    mode: rw

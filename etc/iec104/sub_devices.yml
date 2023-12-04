@@ -1,0 +1,35 @@
+devices:
+  - name: darwin1014
+    version: 1686036519yzwdvw
+    deviceModel: iec1014
+    accessTemplate: iec-template1014
+    deviceTopic:
+      delta:
+        qos: 0
+        topic: thing/iec1014/darwin1014/property/invoke
+      report:
+        qos: 0
+        topic: thing/iec1014/darwin1014/property/post
+      event:
+        qos: 0
+        topic: thing/iec1014/darwin1014/raw/c2d
+      get:
+        qos: 0
+        topic: $baetyl/device/darwin1014/get
+      getResponse:
+        qos: 0
+        topic: $baetyl/device/darwin1014/getResponse
+      eventReport:
+        qos: 0
+        topic: thing/iec1014/darwin1014/event/post
+      propertyGet:
+        qos: 0
+        topic: thing/iec1014/darwin1014/property/get
+      lifecycleReport:
+        qos: 1
+        topic: thing/iec1014/darwin1014/lifecycle/post
+    accessConfig:
+      iec104:
+        interval: 5s
+        endpoint: 172.18.86.158:10010
+driver: ""
