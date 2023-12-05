@@ -54,12 +54,6 @@ type NorthWsConfig struct {
 	RetryTimes             int `yaml:"retryTimes" json:"retryTimes" default:"1"`
 }
 
-//type DriverConfig struct {
-//	Name       string `yaml:"name" json:"name"`
-//	BinPath    string `yaml:"binPath" json:"binPath"`
-//	ConfigPath string `yaml:"configPath" json:"configPath"`
-//}
-
 // Server server config
 type Server struct {
 	Port         string            `yaml:"port" json:"port"`
